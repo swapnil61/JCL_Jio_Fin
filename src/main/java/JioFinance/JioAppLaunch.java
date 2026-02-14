@@ -31,7 +31,7 @@ public class JioAppLaunch
 
         // Example interaction (uncomment when you know the element ID)
         // driver.findElement(By.id("in.jfs.jiofinance:id/loginButton")).click();
-        driver.wait(1000);
+        Thread.sleep(1000);
 
         driver.quit();
     }
